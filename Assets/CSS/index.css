@@ -391,7 +391,8 @@
   }
 
   .ri-arrow-down-circle-line {
-    width: 5px;
+    width: 30px;
+    font-size: 80px;
   }
   .category {
     width: 95%;
@@ -439,4 +440,24 @@
   .pay-logo {
     gap: 10px;
 }
+}
+@media (max-width: 600px){
+    .bg {
+        height: 23vh;
+      }
+      .box {
+        font-size: 20px;
+        margin-top: -80px;
+      }
+      .imag {
+        width: 70px;
+        height: 20px;
+      }
+      .para {
+        font-size: 30px;
+      }
+    
+      .ri-arrow-down-circle-line {
+        font-size: 40px;
+      }
 }
