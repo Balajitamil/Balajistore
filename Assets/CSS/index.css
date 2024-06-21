@@ -453,6 +453,14 @@
         width: 70px;
         height: 20px;
       }
+      .nav{
+        justify-content: space-around;
+        gap: 50px;
+      }
+      .nav-icons {
+        width: 10%;
+      }
+
       .para {
         font-size: 30px;
       }
@@ -460,4 +468,50 @@
       .ri-arrow-down-circle-line {
         font-size: 40px;
       }
+      .category {
+        width: 95%;
+        gap: 25px;
+      }
+      .cat-img {
+        height: 150px;
+      }
+      .cat-img:hover {
+        transform: scale(1.1);
+        transition: 1s;
+        width: 82%;
+        height: 150px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.before-footer{
+  display: block;
+  width: 60vw;
+  height: 100%;
+  margin: 2% auto;
+  padding-right: 30%;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.footer{
+  display: block;
+  height: 100%;
+  padding-left: 10%;
+  border: none;
+}
+.comp, .info, .quick{
+  border: none;
+}
+.bottom{
+flex-direction: column;
+align-items: start;
+padding-left: 10%;
+gap: 10%;
+}
+.products {
+  width: 80%;
+ }
 }
