@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Domine", serif;
+  }
+  .nav {
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .nav-menu li {
+    list-style: none;
+  }
+  .nav-menu li a {
+    text-decoration: none;
+    color: black;
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+  }
+  .nav-icons {
+    width: 10%;
+    display: flex;
+    color: black;
+    font-size: 25px;
+    justify-content: space-between;
+  }
+  .imag{
+   
+    width: 150px;
+    height: 50px;
+  }
+  .category{
+    width: 100vw;
+    height: 250px;
+    text-align: center;
+    line-height: 80px;
+    /* background-color: aqua; */
+  }
+  .home-menu a {
+    text-decoration: none;
+    color: black;
+  }
+  .type{
+    font-size: 25px;
+  }
+  .relax{
+  opacity: 0.6;
+    }
+    .container {
+      width: 90%;
+      height: 100%;
+      margin: 5% auto;
+    
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+    .products {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .img-div-1 {
+      width: 100%;
+      height: 380px;
+      position: relative;
+      overflow: hidden;
+    }
+    .img-1 {
+      width: 100%;
+      height: 100%;
+    }
+    .img-2 {
+      width: 100%;
+      height: 380px;
+      position: absolute;
+      left: 0;
+      opacity: 0;
+    }
+    .btn-div {
+      position: absolute;
+      top: 65%;
+      right: 30%;
+      opacity: 0;
+    }
+    .pro-icons {
+      position: absolute;
+      z-index: 5;
+      top: 10%;
+      right: 10%;
+      opacity: 0;
+    }
+    .ri-heart-line {
+      width: 10px;
+      height: 10px;
+      background-color: white;
+      border-radius: 50%;
+      padding: 10px;
+    }
+    .ri-shuffle-line {
+      width: 10px;
+      height: 10px;
+      background-color: white;
+      border-radius: 50%;
+      padding: 10px;
+    }
+    .ri-eye-line {
+      width: 10px;
+      height: 10px;
+      background-color: white;
+      border-radius: 50%;
+      padding: 10px;
+    }
+    .ri-heart-line:hover {
+      color: white;
+      background-color: black;
+      transition: 1s;
+    }
+    .ri-shuffle-line:hover {
+      color: white;
+      background-color: black;
+      transition: 1s;
+    }
+    .ri-eye-line:hover {
+      color: white;
+      background-color: black;
+      transition: 1s;
+    }
+    .select {
+      padding: 10px 30px;
+      border-radius: 10px;
+      border: none;
+      font-weight: 700;
+    }
+    .select:hover {
+      background-color: black;
+      color: white;
+      transition: 1s;
+    }
+    .products:hover .btn-div {
+      opacity: 1;
+      transition: 1s;
+    }
+    .products:hover .img-2 {
+      opacity: 1;
+      transition: 1s;
+      transform: scale(1.1);
+    }
+    .products:hover .pro-icons {
+      opacity: 1;
+      transition: 1s;
+    }
+    .recent{
+      width: 90%;
+      height: 100%;
+      margin: 5% auto;
+    
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px; 
+    }
