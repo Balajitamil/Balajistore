@@ -166,5 +166,46 @@
     
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      gap: 20px; 
+      gap: 20 px; 
     }
+    .footer {
+      width: 100vw;
+      height: 450px;
+      background-color: rgb(245, 245, 245);
+      display: flex;
+      justify-content: space-evenly;
+      line-height: 40px;
+      padding: 50px;
+    }
+    .sub{
+      line-height: 70px;
+    }
+    .sub h3{
+      font-size: 40px;
+    }
+    .email{
+      width: 500px;
+      height: 50px;
+    }
+    .now{
+      width: 200px;
+      height: 50px;
+      color: white;
+      background-color: black;
+    }
+    .footer ul li a {
+color: black;
+opacity: 0.6;
+      text-decoration: none;
+    }
+    .footer ul li {
+  list-style: none;
+   }
+   .social-links ul i{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgb(233,233,233);
+    border-radius: 50%;
+    padding: 10px;
+  }
